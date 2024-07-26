@@ -1,0 +1,105 @@
+body {
+  background-color: #fff;
+  font-size: 18px;
+  font-family: "Kanit", cursive, sans-serif;
+}
+
+header, .header {
+  background-color: #135d9c;
+  color: white;
+}
+
+table {
+    margin: 0 auto;
+    width: 100% !important;
+}
+
+input.form-control {
+  background-color: #d3d3d30d;
+  /* background-color: #d3d3d324; */
+}
+
+input[readonly], textarea[readonly]{
+  background-color: var(--bs-secondary-bg);
+}
+
+/* .dropdown:hover .dropdown-menu {
+    display: block;
+} */
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #000000ab;
+}
+
+.text-blue {
+  color: #135d9c !important;
+}
+
+.bg-blue {
+  background-color: #135d9c !important;
+}
+
+.btn-blue {
+  --bs-btn-color: #135d9c;
+  --bs-btn-bg: #fff;
+  --bs-btn-border-color: #135d9c;
+  --bs-btn-hover-color: #135d9c;
+  --bs-btn-hover-bg: #fff;
+  --bs-btn-hover-border-color: #146c43;
+  --bs-btn-focus-shadow-rgb: 60,153,110;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #135d9c;
+  --bs-btn-active-border-color: #fff;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #135d9c;
+  --bs-btn-disabled-bg: #fff;
+  --bs-btn-disabled-border-color: #135d9c;
+}
+
+.btn-blue-bg {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #135d9c;
+  --bs-btn-border-color: #fff;
+  --bs-btn-hover-color: #135d9c;
+  --bs-btn-hover-bg: #fff;
+  --bs-btn-hover-border-color: #146c43;
+  --bs-btn-focus-shadow-rgb: 60,153,110;
+  --bs-btn-active-color: #135d9c;
+  --bs-btn-active-bg: #fff;
+  --bs-btn-active-border-color: #135d9c;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #135d9c;
+  --bs-btn-disabled-border-color: #135d9c;
+}
+
+.form-control-input {
+  background-color: tran;
+}
+
+/* Start Of Drag and Drop */
+.upload-container {
+  position: relative;
+}
+.upload-container input {
+  cursor: pointer;
+  border: 1px solid #135d9c;
+  background: #f1f1f1;
+  outline: 2px dashed #135d9c;
+  outline-offset: -10px;
+  padding: 25px 0px 30px 120px;
+  text-align: center !important;
+  width: 500px;
+}
+.upload-container input:hover {
+  background: #ddd;
+}
+.upload-container:before {
+  position: absolute;
+  bottom: 35px;
+  left: 145px;
+  /* content: " (or) Drag and Drop files here. "; */
+  color: #135d9c;
+  font-weight: 900;
+}
+/* End Of Drag and Drop */
